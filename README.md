@@ -6,6 +6,8 @@ The database file can be obtained from Geofabrik at: <https://download.geofabrik
 
 ## Guide to setup a dockerized server HTTP REST API
 
+Profil routing mape je postavljen u app.config u `profile` čvoru na `walking`.
+
 1. Pokrenuti defaultnu docker skriptu u direktoriju ovog dokumenta (ona sa githuba je to <https://github.com/GIScience/openrouteservice/tree/master/docker>):
 
     ```ps1
