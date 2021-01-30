@@ -30,3 +30,7 @@ Profil routing mape je postavljen u app.config u `profile` čvoru na `walking`.
 5. Testirate lokalno je li image radi: `docker run --rm -dt --name ors-app-cro-1 -p 0.0.0.0:8080:8080 ors-app-croatia`, pucate `http://localhost:8080/ors/v2/health` dok ne vidite da je ready nakon 2-5 minuta, probate i `http://localhost:8080/ors/v2/directions/foot-walking?start=18.08804543299171,42.65709339685951&end=18.106246932775903,42.641991395820725`, te ako sve radi trebalo bi i u cloudu.
 
 6. Imate image koji možete pushati u gitlab/azure container registry i na azureu pokrenuti kontejner iz njega
+
+## Prebuilt docker image
+
+You can use the image from docker hub: `$ docker pull vmandic/ors-app-croatia:latest`
