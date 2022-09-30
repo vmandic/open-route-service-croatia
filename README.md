@@ -34,3 +34,7 @@ Profil routing mape je postavljen u app.config u `profile` čvoru na `walking`.
 ## Prebuilt docker image
 
 You can use the image from docker hub: `$ docker pull vmandic/ors-app-croatia:latest`
+
+## Updates
+
+Last update performed 2022-09-30. Had to redo whole thing and repush :latest tag. New config is used with walking only profile.
